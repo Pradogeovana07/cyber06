@@ -1,4 +1,4 @@
-#1 Tip, tax, and total
+#1. Tip, tax, and total
 # Write a program that calculates the total amount of a meal purchased at a restaurant. The program should ask the user to enter the charge for the food, and then calculate the amount of an 18 percent tip and 7 percent sales tax. Display each of these amounts and the total.
 def calculate_total():
     #user input
@@ -20,7 +20,7 @@ def calculate_total():
 
 calculate_total()
 
-#2Sales Prediction
+#2. Sales Prediction
 # A company has determined that its annual profit is typically 23 percent of total sales. Write a program that asks the user to enter the projected amount of total sales, and then displays the profit that will be made from that amount.
 def annual_profit():
     projected_amount = float(input('Enter the projected amount of total sales: '))
@@ -31,7 +31,7 @@ def annual_profit():
 
 annual_profit()
 
-#3 Miles-per-Gallon
+#3. Miles-per-Gallon
 # A car’s miles-per-gallon (MPG) can be calculated with the following formula:
 # MPG = Miles driven Gallons of gas used
 # Write a program that asks the user for the number of miles driven and the gallons of gas used. It should calculate the car’s MPG and display the result.
@@ -43,7 +43,7 @@ print('Your car gets', mpg , 'miles per gallon')
 
 
 
-#4 Total Purchase
+#4. Total Purchase
 # A customer in a store is purchasing five items. Write a program that asks for the price of each item, and then displays the subtotal of the sale, the amount of sales tax, and the total. Assume the sales tax is 7 percent.
 def customer1():
 #cost of item
