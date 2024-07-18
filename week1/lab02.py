@@ -1,27 +1,27 @@
 # #1. 1.	Write an if statement that checks if the variable a is equal to 1. If it is equal to 1, print a message saying, ‘a equals 1’, else print ‘a is not equal to 1’.
-# a = int(input('Enter a number:'))
+a = int(input('Enter a number:'))
 
-# if a == 1:
-#     print('a equals 1')
-# else:
-#     print('a is not equal to 1')
+if a == 1:
+    print('a equals 1')
+else:
+    print('a is not equal to 1')
 
 # #2.	 Write an input statement that gets a value from the user that will be represented by variable B. You are requested to add an if-else statement to check If the variable B is less than 10. If the value from the user is less than 10 print, ‘Too small’. Else, it should print, ‘Perfect fit’.
 
-# B = int(input('Enter a number:'))
+B = int(input('Enter a number:'))
 
-# if B < 10:
-#     print('Too small')
-# else:
-#     print('Perfect fit')
+if B < 10:
+    print('Too small')
+else:
+    print('Perfect fit')
 
 # #3.	Write an if-else statement that asks the user to enter the speed at which he is driving. If the speed is less than 50 print ‘Speed in limit’, else print ‘Speed should be checked’.
-# speed = int(input('Enter speed: '))
+speed = int(input('Enter speed: '))
 
-# if speed < 50:
-#     print('Speed in limit')
-# else:
-#     print('speed should be checked.')
+if speed < 50:
+    print('Speed in limit')
+else:
+    print('speed should be checked.')
 
 # #4.	 Write a program that asks the user to enter their age.  The program should display a message indicating whether the person is an infant, a child, a teenager, or an adult. 
 # Following are the guidelines:

@@ -13,4 +13,12 @@ Following are the guidelines:
 •	If the person is at least 13 years old, but less than 20 years old, print he or she is a teenager.
 •	If the person is at least 20 years old, print he or she is an adult.
 
-5.	Create a variable called points and assign the number 5 to it. Write an if-else statement that determines whether the points variable is outside the range of 9 to 51.  If the variable’s value is outside this range it should display “Invalid points.” Otherwise, it should display “Valid points.”
+userAge = int(input('Enter your age: '))
+if userAge <= 1:
+    print('User is an infant')
+if userAge > 1 and userAge < 13:
+    print('user in a child')
+if userAge > 13 and userAge < 20 :
+    print('user is a teenager')
+if userAge >= 20:
+    print('user is an adult')
